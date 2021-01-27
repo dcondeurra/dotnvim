@@ -8,6 +8,8 @@ packman.get('kyazdani42/nvim-web-devicons')
 
 -- color theme
 packman.get('mhartington/oceanic-next')
+packman.get('morhetz/gruvbox')
+packman.get('Yggdroot/indentLine')
 
 -- language server configurations
 -- @TODO
@@ -44,3 +46,12 @@ packman.get('cometsong/CommentFrame.vim')
 -- packman.get('nvim-lua/diagnostic-nvim')
 
 packman.get('tpope/vim-surround')
+
+packman.get('puremourning/vimspector')
+packman.get('neoclide/coc-tsserver')
+
+-- telescope
+packman.get('nvim-lua/popup.nvim')
+packman.get('nvim-lua/plenary.nvim')
+packman.get('nvim-telescope/telescope.nvim')
+packman.get('nvim-telescope/telescope-vimspector.nvim')

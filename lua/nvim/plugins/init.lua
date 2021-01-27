@@ -8,3 +8,5 @@ require('nvim.plugins.lua-tree')
 
 require('nvim.plugins.coc-nvim')
 require('nvim.plugins.completion')
+
+require('nvim.plugins.telescope')

@@ -12,4 +12,11 @@ vim.g.coc_global_extensions = {
 	'coc-tabnine',
 	'coc-xml',
 	'coc-yank',
+	'coc-prettier',
+	'coc-git',
+	'coc-tsserver',
+	'coc-ember',
+	'coc-graphql',
+	'coc-highlight',
+	'coc-python',
 }

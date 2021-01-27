@@ -4,8 +4,8 @@ Option.g({
 	#                                    EDITOR                                    #
 	#------------------------------------------------------------------------------#
 	--]]
-    shiftwidth = 4,
-    tabstop = 4,
+    shiftwidth = 2,
+    tabstop = 2,
 	hlsearch = false,
 	foldlevelstart = 1,
 
