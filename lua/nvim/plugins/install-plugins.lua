@@ -1,50 +1,53 @@
 local packman = require('nvim.plugins.packman_lua.packman')
 
--- file explorer
+-- FILE EXPLORER
 packman.get('kyazdani42/nvim-tree.lua')
-
--- icons for nvim-tree file explorer
 packman.get('kyazdani42/nvim-web-devicons')
 
--- color theme
+-- COLOR THEME
 packman.get('mhartington/oceanic-next')
 packman.get('morhetz/gruvbox')
 packman.get('Yggdroot/indentLine')
+packman.get('eemed/sitruuna.vim')
+packman.get('arzg/vim-colors-xcode')
+packman.get('wadackel/vim-dogrun')
 
--- language server configurations
+packman.get('tjdevries/colorbuddy.vim')
+packman.get('tjdevries/gruvbuddy.nvim')
+packman.get('npxbr/gruvbox.nvim')
+packman.get('Th3Whit3Wolf/onebuddy')
+packman.get('embark-theme/vim')
+--
+-- LANGUAGE SERVER CONFIGURATIONS
 -- @TODO
 -- 2020.11.24
 -- there are some features missing with built-in lsp like go to definition
 -- features should be further analyzed and should be configured
 -- removing the plugin for now until I get time to configure for coc-nvim
-packman.get('neovim/nvim-lspconfig')
-
--- lsp features
+-- packman.get('neovim/nvim-lspconfig')
 packman.get('neoclide/coc.nvim')
-
--- auto completion features for lsp
+packman.get('puremourning/vimspector')
+-- AUTO COMPLETION FEATURES FOR LSP
 -- @TODO
 -- commenting out because completion is not useful unless built-in lsp is used
 -- since coc-nvim comes with completion features
 packman.get('nvim-lua/completion-nvim')
-
--- fuzzy search features
+--
+-- SEARCH
 packman.get('junegunn/fzf')
 packman.get('junegunn/fzf.vim')
 
--- interactive git for vim
+-- GIT
 packman.get('tpope/vim-fugitive')
 
+-- EDITOR
 -- auto pair brackets
 packman.get('jiangmiao/auto-pairs')
 
 -- box comments
 packman.get('cometsong/CommentFrame.vim')
 
--- diagnostic-nvim is no longer needed
--- diagnostic features come with nvim core vim.lsp.diagnostic
--- packman.get('nvim-lua/diagnostic-nvim')
-
+-- handle pair of text objects
 packman.get('tpope/vim-surround')
 
 packman.get('puremourning/vimspector')
@@ -55,3 +58,14 @@ packman.get('nvim-lua/popup.nvim')
 packman.get('nvim-lua/plenary.nvim')
 packman.get('nvim-telescope/telescope.nvim')
 packman.get('nvim-telescope/telescope-vimspector.nvim')
+--
+-- syntax highlighting
+packman.get('nvim-treesitter/nvim-treesitter')
+packman.get('nvim-treesitter/playground')
+
+-- stat
+packman.get('romgrk/barbar.nvim')
+
+-- terminal
+packman.get('s1n7ax/nvim-terminal')
+

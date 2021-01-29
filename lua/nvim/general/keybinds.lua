@@ -5,7 +5,7 @@ Keybind.g({
 	#------------------------------------------------------------------------------#
 	--]]
     -- reload nvim configuration file
-    { 'n', ',r', ':so $MYVIMRC<cr>' },
+    { 'n', ',r', ':luafile $MYVIMRC<cr>' },
 
     -- edit nvim configuration file
     { 'n', ',e', ':vsp $MYVIMRC<cr>' },
@@ -102,6 +102,9 @@ Keybind.g({
 	--]]
     -- [ j + k ] to go to normal mode from insert
     { 'i', 'jk', '<esc>' },
+
+	-- [ ctrl + d ] deletes a character in front of the cursor
+    { 'i', '<c-d>', '<delete>' },
 
     -- [ <F6> ] to go enable spell checker
     { '', '<F6>', ':setlocal spell! spelllang=en_us<CR>' },

@@ -19,4 +19,5 @@ vim.g.coc_global_extensions = {
 	'coc-graphql',
 	'coc-highlight',
 	'coc-python',
+	'coc-prettier',
 }

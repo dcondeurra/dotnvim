@@ -1,6 +1,6 @@
 Variable.g({
     lua_tree_side  = 'left',
-    lua_tree_width  = 40, --30 by default
+    lua_tree_width  = 50, --30 by default
     lua_tree_ignore  = { '.git', 'node_modules', '.cache' }, --empty by default
     lua_tree_auto_open  = 1, --0 by default, opens the tree when typing `vim $DIR` or `vim`
     lua_tree_auto_close  = 0, --0 by default, closes the tree when it's the last window
