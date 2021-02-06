@@ -1,2 +1,4 @@
 require('nvim.plugins.telescope.keybidings')
-require('nvim.plugins.coc-nvim.extensions')
+-- require('telescope').setup{
+-- 	file_ignore_patterns = {"*./node_modules/*"}
+-- }

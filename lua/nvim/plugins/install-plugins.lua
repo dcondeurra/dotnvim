@@ -17,6 +17,9 @@ packman.get('tjdevries/gruvbuddy.nvim')
 packman.get('npxbr/gruvbox.nvim')
 packman.get('Th3Whit3Wolf/onebuddy')
 packman.get('embark-theme/vim')
+
+packman.get('vim-airline/vim-airline')
+packman.get('vim-airline/vim-airline-themes')
 --
 -- LANGUAGE SERVER CONFIGURATIONS
 -- @TODO
