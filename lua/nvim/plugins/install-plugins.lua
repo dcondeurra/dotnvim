@@ -72,3 +72,11 @@ packman.get('romgrk/barbar.nvim')
 -- terminal
 packman.get('s1n7ax/nvim-terminal')
 
+
+
+packman.get('pangloss/vim-javascript')
+packman.get('leafgarland/typescript-vim')
+packman.get('peitalin/vim-jsx-typescript')
+packman.get('styled-components/vim-styled-components')
+packman.get('jparise/vim-graphql')
+

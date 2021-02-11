@@ -1,27 +1,12 @@
 {
   "suggest.noselect": false,
-  "python.jediEnabled": true,
-  "python.jediPath": "/usr/local/lib/python3.7/site-packages",
-  "python.autoComplete.showAdvancedMembers": true,
-  "cSpell.enabledLanguageIds": [
-    "css",
-    "git-commit",
-    "handlebars",
-    "html",
+  "eslint.autoFixOnSave": false,
+  "eslint.filetypes": [
     "javascript",
     "javascriptreact",
-    "json",
-    "jsonc",
-    "less",
-    "markdown",
-    "plaintext",
-    "restructuredtext",
-    "scss",
-    "text",
     "typescript",
-    "typescriptreact",
-    "vim",
-    "yaml",
-    "yml"
-  ]
+    "typescriptreact"
+  ],
+  "python.jediEnabled": true,
+  "python.jediPath": "/usr/local/lib/python3.7/site-packages"
 }
