@@ -16,6 +16,7 @@ Variable.g({
 		'coc-yank',
 		'coc-tsserver',
 		'coc-prettier',
-		'coc-psalm'
+		'coc-psalm',
+		'coc-graphql'
 	}
 })

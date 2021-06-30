@@ -27,4 +27,4 @@ require('nvim.plugins.lualine')
 
 -- Packer lazy loads the plugin configuration
 -- check install.lua for more information
--- require('nvim.plugins.coc-nvim')
+require('nvim.plugins.coc-nvim')

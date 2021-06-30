@@ -31,7 +31,8 @@
     "typescriptreact",
     "vim",
     "yaml",
-    "yml"
+    "yml",
+    "graphql"
   ],
 
   "suggest.highPrioritySourceLimit": 10,
@@ -77,7 +78,8 @@
     "python",
     "php",
     "markdown",
-    "html"
+    "html",
+    "graphql"
   ],
   "json.format.enable": true,
   "suggest.completionItemKindLabels": {
@@ -109,23 +111,21 @@
   },
   "coc.preferences.formatOnSaveFiletypes": [
     "typescript",
+    "typescriptreact",
     "java",
     "lua",
     "jsx",
     "javascript",
+    "javascriptreact",
     "html",
-    "css"
+    "css",
+    "graphql"
   ],
   "prettier.tabWidth": 2,
   "java.signatureHelp.enabled": true,
   "java.completion.overwrite": true,
   "java.completion.guessMethodArguments": true,
-  "java.completion.importOrder": [
-    "java",
-    "javax",
-    "com",
-    "org"
-  ],
+  "java.completion.importOrder": ["java", "javax", "com", "org"],
   "java.format.onType.enabled": true,
   "java.foldingRange.enabled": true,
   "java.saveActions.organizeImports": true,

@@ -25,6 +25,8 @@ return require('packer').startup(function()
 	use { 'bluz71/vim-nightfly-guicolors' }
 	use { 'ghifarit53/tokyonight-vim' }
 
+	use { 'gruvbox-community/gruvbox' }
+
 
 
 	-- LANGUAGE SERVER CONFIGURATIONS
@@ -50,12 +52,15 @@ return require('packer').startup(function()
 			'javascript',
 			'javascriptreact',
 			'php',
-			'css'
+			'css',
+			'graphql'
 		},
 		config = function()
 			require('nvim.plugins.coc-nvim')
 		end
 	}
+
+	use { 'jparise/vim-graphql' }
 
 	-- debugging
 	use { 'puremourning/vimspector',
